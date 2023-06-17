@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <link href="CSS\index.CSS" rel="stylesheet" type="text/css">
+    <link href="fontello\css\fontello.css" rel="stylesheet" type="text/css">
 
     <title>Aleksander</title>
 
@@ -14,7 +15,18 @@
 <body>
    
   <div id="topPanel">
-  <div class="smallLogo"></div>
+  
+    <div class="smallLogo"></div>
+    
+     <div id="icons">
+      
+       <i class="icon-github-circled"></i>
+       <i class="icon-linkedin-squared"></i>
+       <i class="icon-facebook-squared"></i>
+
+       <i class="icon-mail-alt"></i>
+     
+     </div>
   </div>
 
   <div id="topContainer">
@@ -23,16 +35,22 @@
     <div class="mainText"> Hito | DevHito | ... </div>
     <div class="underMainText"> Hello. I am writing in PHP and occasionally in something else. If you have a question, please write to me. </div>
 
-    <div id="underAbountMe">
-      <div class="somethingLikeClipBoard">
+     <div id="underAboutMeContainer">
+    <div class="somethingLikeClipBoard">
         <p id="email">a.bazanski@gmail.com</p>
-        <button id="copyButton">Copy</button>
-      </div>
-
-     <!-- <button id="copyButton">Copy</button>-->
     </div>
 
+      <button id="copyButton">Copy</button>
+    </div>
+
+   <!--
+   Przykład Fontello
+   
+   <i class="icon-facebook-squared"></i> -->
+
   </div>
+
+ 
  
 
   <script>

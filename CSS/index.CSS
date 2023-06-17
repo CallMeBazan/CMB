@@ -11,6 +11,7 @@ body {
     background-color: #8807f1;
 }
 
+
 #topContainer {
     margin-left: -8px;
     margin-right: -8px;
@@ -50,8 +51,8 @@ body {
 }
 
 #underAboutMeContainer {
-    margin-top: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .somethingLikeClipBoard {
@@ -65,7 +66,14 @@ body {
     border-radius: 7px;
     margin-right: 10px;
     padding: 10px;
-    margin-top: 50px;
+}
+
+#copyButton {
+    background-color: #2C3034;
+    color: #ADB5BD;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
 }
 
 #email {
@@ -75,10 +83,3 @@ body {
     margin-right: 50px;
 }
 
-/* cos do wstawenia obok semethingLikeBoard
-#copyButton {
-    width: 150px;
-    height: 65px;
-    display: inline-block;
-    vertical-align: middle;
-}*/
