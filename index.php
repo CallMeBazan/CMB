@@ -16,8 +16,17 @@
    
   <div id="topPanel">
   
-    <div class="smallLogo"></div>
+    <div class="smallLogo"> <img src="img\alex.jpg" width="45" height="45"> </div>
     
+    <div id="underWebPages">
+
+        <div class="skills">Skills</div>
+        <div class="informations">Informations</div>
+        <div class="education">Education</div>
+        <div class="contact">Contact</div>
+
+    </div>
+
      <div id="icons">
       
        <i class="icon-github-circled"></i>

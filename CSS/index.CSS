@@ -4,8 +4,6 @@ body {
 }
 
 #topPanel {
-
-
     display: flex;
     justify-content: center;
     margin-top: -8px;
@@ -15,15 +13,40 @@ body {
     background-color: #702CF6;
 }
 
+.smallLogo {
+    display: flex;
+    align-items: center;
+}
+
+#underWebPages {
+
+    font-family: Segoe UI;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.informations {
+    margin-left: 15px;
+}
+
+.education {
+    margin-left: 15px;
+}
+
+.contact {
+    margin-left: 15px;
+
+}
+
 #icons {
     font-size: 20px;
     display: flex;
     align-items: center;
-    margin-left: 1000px;
+    margin-left: 700px;
 }
 
 .icon-github-circled {
-
     margin-right: 10px;
 }
 
@@ -51,9 +74,6 @@ body {
     height: 35px;
     border-right: 1px solid #9362F6;
 }
-
-
-
 
 #topContainer {
     margin-left: -8px;
