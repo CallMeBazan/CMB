@@ -47,13 +47,10 @@
     <div class="mainText"> Hito | DevHito | ... </div>
     <div class="underMainText"> Hello. I am writing in PHP and occasionally in something else. If you have a question, please write to me. </div>
   
-     <div id="underAboutMeContainer">
-    <div class="somethingLikeClipBoard">
+  
+    <div id="somethingLikeClipBoard">
         <p id="email">a.bazanski@gmail.com</p>
-        <button id="copyButton">Copy</button>
-    </div>
-
-      
+        <i class="icon-clipboard"></i>
     </div>
 
    <!--
@@ -68,7 +65,7 @@
 
   <script>
     
-    const copyButton = document.getElementById('copyButton');
+    const copyButton = document.getElementById('icon-clipboard');
     const emailElement = document.getElementById('email');
 
     copyButton.addEventListener('click', () => {
