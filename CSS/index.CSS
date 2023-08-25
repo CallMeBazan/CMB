@@ -116,37 +116,40 @@ body {
 }
 
 
+#footer {
 
-#somethingLikeClipBoard {
-    color: #ADB5BD;
-    display: flex;
-    align-items: center;
-    width: 300px;
+    background-color: #2B3035;
+    color: #FFFFFF;
     height: 50px;
-    background-color: #2C3034;
-    border-style: groove;
-    border: 1px solid rgb(145, 145, 145);
-    border-radius: 7px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+}
+
+.only_Picture {
     margin-right: 10px;
-    padding: 10px;
-    margin-top: 30px;
 }
 
-.icon-clipboard {
-    background-color: #2C3034;
-    color: #ADB5BD;
-    border: none;
-    border-radius: 7px;
-    padding: 10px 20px;
+.first_word {
     font-size: 20px;
-    margin-left: 20px;
-
 }
 
-#email {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 12px;
-
+.in_Footer {
+    color: #b6b6b6;
     margin-left: 20px;
+    float: left;
+}
+
+.email {
+    margin-left: 20px;
+    float: left;
+}
+
+.phone {
+    margin-left: 20px;
+    float: left;
 }

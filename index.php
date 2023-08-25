@@ -45,41 +45,20 @@
   
     <div class="logo"> <img src="img\alex.jpg" alt="profileLogo" width="193" height="193" > </div>
     <div class="mainText"> Hito | DevHito | ... </div>
-    <div class="underMainText"> Hello. I am writing in PHP and occasionally in something else. If you have a question, please write to me. </div>
+    <div class="underMainText"> Hello. I just writing a web sites and occasionally something else. If you have a question, please write to me. </div>
+   </div>
+
   
-  
-    <div id="somethingLikeClipBoard">
-        <p id="email">a.bazanski@gmail.com</p>
-        <i class="icon-clipboard"></i>
-    </div>
 
-   <!--
-   Przykład Fontello
-   
-   <i class="icon-facebook-squared"></i> -->
-
-  </div>
-
- 
- 
+  <div id="footer"> 
+    <div class="only_Picture"> <img src="img\alex.jpg" width="35" height="35" margin-left="10"> </div> 
+    <div class="first_word"> Hito </div> 
+  <div class="in_Footer">Designed and built by Hito </div><div class="email"> Email: a.bazanski@gmail.com </div> <div class="phone"> Phone: +48 730 642 314</div>
+</div>
 
   <script>
     
-    const copyButton = document.getElementById('icon-clipboard');
-    const emailElement = document.getElementById('email');
-
-    copyButton.addEventListener('click', () => {
-      const email = emailElement.textContent;
-      
-      const tempInput = document.createElement('input');
-      tempInput.value = email;
-      document.body.appendChild(tempInput);
-      tempInput.select();
-      document.execCommand('copy');
-      document.body.removeChild(tempInput);
-
-      console.log('Adres e-mail został skopiowany do schowka.');
-    });
+  
 
   </script>
 
