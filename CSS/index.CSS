@@ -44,10 +44,16 @@ body {
     display: flex;
     align-items: center;
     margin-left: 700px;
+
+}
+
+a {
+    color: white;
 }
 
 .icon-github-circled {
     margin-right: 10px;
+
 }
 
 .icon-linkedin-squared {
@@ -75,7 +81,7 @@ body {
     border-right: 1px solid #9362F6;
 }
 
-#topContainer {
+#top_Container {
     margin-left: -8px;
     margin-right: -8px;
     padding-top: 1px;
@@ -113,6 +119,19 @@ body {
     color: #b6b6b6;
     font-size: 19px;
     font-family: Segoe UI;
+}
+
+#skills-Container {
+    margin-top: 10px;
+    font-size: 75px;
+    font-family: Segoe UI;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
 }
 
 

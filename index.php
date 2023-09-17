@@ -29,10 +29,10 @@
 
      <div id="icons">
       
-       <i class="icon-github-circled"></i>
-       <i class="icon-linkedin-squared"></i>
-       <i class="icon-facebook-squared"></i>
-        <div id="verticalSmallLine"></div>
+      <a href="https://github.com/DevHito"> <i class="icon-github-circled"> </i> </a>
+       <a href="https://www.linkedin.com/in/aleksander-baza%C5%84ski-20820522b/"> <i class="icon-linkedin-squared"></i> </a>
+       <a href="https://www.facebook.com/olekscorpius06/"><i class="icon-facebook-squared"></i></a>
+       <div id="verticalSmallLine"></div>
        <i class="icon-mail-alt"></i>
        <div id="verticalSmallLine"></div>
        <i class="icon-moon"></i>
@@ -41,13 +41,18 @@
 
   </div>
 
-  <div id="topContainer">
+  <div id="top_Container">
   
     <div class="logo"> <img src="img\alex.jpg" alt="profileLogo" width="193" height="193" > </div>
     <div class="mainText"> Hito | DevHito | ... </div>
     <div class="underMainText"> Hello. I just writing a web sites and occasionally something else. If you have a question, please write to me. </div>
    </div>
 
+    <div id="skills_Container"> 
+
+    <div class="main_Text_Skills"> My Skills </div>
+
+    </div>
   
 
   <div id="footer"> 
