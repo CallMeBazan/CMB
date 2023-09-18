@@ -50,7 +50,34 @@
 
     <div id="skills_Container"> 
 
-    <div class="main_Text_Skills"> My Skills </div>
+      <div class="qr_Code_GitHub"><img src="img\qrCodeGit.png" width="100" height="100" ></div>
+      <div class="main_Text_Skills"> My Skills </div>
+    
+      <div id="skills_images">
+
+        <div class="column">
+          <div class="html"> <img src="img/html.png" width="150" height="150"> </div>
+          <div class="c_sharp"> <img src="img/c-sharp.png" width="150" height="150"> </div>
+          
+          <div class="mySql"> <img src="img/mysql.png" width="150" height="150">  </div>
+        </div>
+
+        <div class="column">
+          
+          <div class="css"> <img src="img/css-3.png" width="150" height="150"> </div>
+          <div class="git"> <img src="img/git.png" width="150" height="150"> </div>
+          <div class="cisco"> <img src="img/cisco.png" width="150" height="150"> </div>
+        </div> 
+
+        <div class="column">
+         
+         <div class="php"> <img src="img/php.png" width="150" height="150"> </div>
+          <div class="Linux"> <img src="img/linux.png" width="150" height="150"> </div>
+          
+          <div class="mikroTik"> <img src="img/mikroTikLogo.jpg" width="150" height="150"> </div>
+        </div>
+
+      </div>
 
     </div>
   
