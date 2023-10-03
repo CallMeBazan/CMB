@@ -81,6 +81,11 @@
 
     </div>
   
+      <div id="skills_Text_Html_Informations">
+
+        
+
+      </div>
 
   <div id="footer"> 
     <div class="only_Picture"> <img src="img\alex.jpg" width="35" height="35" margin-left="10"> </div> 
