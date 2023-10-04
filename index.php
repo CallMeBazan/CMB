@@ -81,8 +81,8 @@
 
     </div>
   
-      <div id="skills_Text_Html_Informations">
-
+      <div id="skills_Text_Html_Informations_Left_Site">
+        <>
         
 
       </div>
