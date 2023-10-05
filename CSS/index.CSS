@@ -209,13 +209,27 @@ a {
 }
 
 
-#skills_Text_Html_Informations_Left_Site {
 
-    
-    font-size: 20px;
-    
-    
 
+.education_Text_Logo {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    font-family: Consolas;
+    font-size: 50px;
+    align-items: center;
+    margin-right: 850px;
+}
+
+.school {
+    font-size: 19px;
+    font-family: Segoe UI;
+    margin-top: 25px;
+    color: #b6b6b6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: px;
 }
 
 

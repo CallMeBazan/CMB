@@ -81,11 +81,12 @@
 
     </div>
   
-      <div id="skills_Text_Html_Informations_Left_Site">
-        <>
-        
+     <div id="education">
+      
+      <div class="education_Text_Logo">Education</div>
+      <div class="school">Complex of Mechanical and Electrical Schools named after Tadeusz Kościuszko in Rybnik</div>
 
-      </div>
+     </div>
 
   <div id="footer"> 
     <div class="only_Picture"> <img src="img\alex.jpg" width="35" height="35" margin-left="10"> </div> 
